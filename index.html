@@ -3,12 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>SightRead Systems</title>
-  <meta name="description" content="SightRead Systems builds computer vision and applied systems prototypes for scanning, automation, image processing, and technical workflows." />
+  <meta
+    name="description"
+    content="SightRead Systems builds computer vision and applied systems prototypes for scanning, automation, image processing, and technical workflows."
+  />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <div class="background-grid"></div>
+  <div class="ambient-glow"></div>
   <div class="scan-line"></div>
 
   <header class="site-header">
@@ -19,7 +26,7 @@
 
     <nav class="nav">
       <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
+      <a href="#process">Process</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -28,7 +35,9 @@
     <section class="hero">
       <div class="hero-text">
         <p class="eyebrow">Computer Vision & Applied Systems Development</p>
+
         <h1>Vision systems for scanning, automation, and technical workflows.</h1>
+
         <p class="hero-description">
           SightRead Systems builds prototype tools that combine cameras, software,
           automation, and image processing to turn manual visual tasks into faster,
@@ -42,35 +51,40 @@
       </div>
 
       <div class="hero-panel">
-        <div class="panel-top">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="panel-label">
+          <span>Vision Pipeline</span>
+          <strong>Online</strong>
         </div>
 
-        <div class="vision-box">
-          <div class="target-card">
-            <div class="corner top-left"></div>
-            <div class="corner top-right"></div>
-            <div class="corner bottom-left"></div>
-            <div class="corner bottom-right"></div>
-            <div class="pulse-dot"></div>
-            <p>OBJECT DETECTION</p>
+        <div class="vision-display">
+          <div class="scan-frame">
+            <span class="corner top-left"></span>
+            <span class="corner top-right"></span>
+            <span class="corner bottom-left"></span>
+            <span class="corner bottom-right"></span>
+
+            <div class="center-target">
+              <span></span>
+            </div>
+
+            <div class="horizontal-scan"></div>
+
+            <p>Live Detection Layer</p>
           </div>
         </div>
 
-        <div class="metrics">
+        <div class="pipeline-row">
           <div>
-            <span>Capture</span>
-            <strong>Active</strong>
+            <span>01</span>
+            <strong>Capture</strong>
           </div>
           <div>
-            <span>Pipeline</span>
-            <strong>Ready</strong>
+            <span>02</span>
+            <strong>Detect</strong>
           </div>
           <div>
-            <span>Status</span>
-            <strong>Online</strong>
+            <span>03</span>
+            <strong>Automate</strong>
           </div>
         </div>
       </div>
@@ -86,8 +100,8 @@
         <article class="card">
           <h3>Computer Vision Prototypes</h3>
           <p>
-            Early-stage vision systems for detecting, classifying, tracking, and
-            analyzing objects in images or video.
+            Early-stage systems for detecting, classifying, tracking, and analyzing
+            objects in images or video.
           </p>
         </article>
 
@@ -110,8 +124,8 @@
         <article class="card">
           <h3>Automation Tools</h3>
           <p>
-            Software tools that connect vision outputs to real workflows such as
-            data entry, listing preparation, reports, and internal dashboards.
+            Software tools that connect vision outputs to real workflows like data
+            entry, listing preparation, reports, and dashboards.
           </p>
         </article>
 
@@ -126,39 +140,48 @@
         <article class="card">
           <h3>Technical Workflow Systems</h3>
           <p>
-            Practical systems for businesses that need custom tools but do not
-            need a full enterprise software platform.
+            Practical tools for businesses that need custom systems without a full
+            enterprise software platform.
           </p>
         </article>
       </div>
     </section>
 
-    <section id="projects" class="section split-section">
+    <section id="process" class="section split-section">
       <div>
-        <p class="eyebrow">Projects</p>
-        <h2>Prototype-focused development</h2>
+        <p class="eyebrow">Process</p>
+        <h2>Prototype-focused systems work</h2>
         <p class="section-text">
-          Current work is focused on internal R&D systems and early-stage prototypes.
-          Client projects can be added here once completed and approved for display.
+          SightRead Systems focuses on practical prototypes that can be tested,
+          improved, and adapted to real business workflows.
         </p>
       </div>
 
       <div class="project-list">
         <article class="project">
-          <span>Internal Demo</span>
-          <h3>Product Scanning Workflow</h3>
+          <span>Discovery</span>
+          <h3>Understand the workflow</h3>
           <p>
-            A prototype workflow for capturing product images, detecting item
-            regions, and preparing structured output for listing or inventory tasks.
+            Identify the manual visual task, the current bottleneck, and the
+            output the system needs to produce.
           </p>
         </article>
 
         <article class="project">
-          <span>Prototype System</span>
-          <h3>Image Capture Pipeline</h3>
+          <span>Prototype</span>
+          <h3>Build and test the system</h3>
           <p>
-            Camera-based capture process designed for repeatable lighting, image
-            cleanup, and reliable downstream computer vision analysis.
+            Develop the capture process, computer vision pipeline, automation
+            logic, and basic user workflow.
+          </p>
+        </article>
+
+        <article class="project">
+          <span>Refine</span>
+          <h3>Improve reliability</h3>
+          <p>
+            Test edge cases, improve image quality, tune detection, and prepare
+            the system for real-world use.
           </p>
         </article>
       </div>
@@ -171,8 +194,9 @@
         For prototype work, scanning systems, automation tools, or computer vision
         development, contact SightRead Systems.
       </p>
-      <a class="contact-link" href="mailto:contact@sightreadsystems.xyz">
-        contact@sightreadsystems.xyz
+
+      <a class="contact-link" href="mailto:sightreadsystems@gmail.com">
+        sightreadsystems@gmail.com
       </a>
     </section>
   </main>
